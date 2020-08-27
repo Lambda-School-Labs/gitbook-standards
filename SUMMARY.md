@@ -25,6 +25,7 @@
 
 ## Infrastructure
 
+* [DNS](infrastructure/dns.md)
 * [AWS](infrastructure/aws.md)
 * [Heroku](infrastructure/heroku.md)
 

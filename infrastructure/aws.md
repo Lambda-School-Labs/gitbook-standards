@@ -35,6 +35,11 @@ Exceptions:
 
 The following naming conventions must be followed:
 
+* IAM Users
+  * Username _must_ be the student's `lambdastudents.com` email address in lowercase
+    * `jessica-graham@lambdastudents.com`
+  * A `Name` tag must be applied with the student's full name
+    * Jessica Graham
 * Amplify Application
   * `<Product Name>-<Cohort>-<Team Letter>`
     * bridges-to-prosperity-labs25-a
