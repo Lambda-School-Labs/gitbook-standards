@@ -1,6 +1,6 @@
 # DNS
 
-### \(DNS-100\) Domain Name
+### \(DNS-100\) Product Domain
 
 Each product will have a single registered domain that will be used for all endpoints in all services and for all projects.
 
@@ -25,7 +25,7 @@ Exceptions:
 
 * None
 
-### \(DNS-200\) Subdomains
+### \(DNS-200\) Product Subdomains
 
 Subdomains should be used for various endpoints of a product: e.g. DS API, Web Front-end, etc.
 
@@ -33,6 +33,10 @@ Subdomains should be used for various endpoints of a product: e.g. DS API, Web F
   * All lowercase
   * Alphanumeric and hyphens only
   * Hosted as records in the product domain hosted zone
+  * Web Frontend
+    * Use the format: `<cohort>-<team letter>`
+      * `labs25-c.bridgestoprosperity.dev`
+      * `labs26-a.ecosoap.dev`
   * Web API
     * Use the format: `<cohort>-<team letter>-api`
       * Examples:
