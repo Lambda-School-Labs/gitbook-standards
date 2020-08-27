@@ -5,13 +5,12 @@
 Each product will have a single registered domain that will be used for all endpoints in all services and for all projects.
 
 * Naming
-  * All lowercase
-  * Alphanumeric and hyphens only
+  * Lowercase alphanumeric characters only
   * Register in the `dev` TLD
   * Registered and managed by Lambda School engineering managers
   * Hosted in AWS Route 53 as a Hosted Zone
   * Examples:
-    * `bridges-to-prosperity.dev`
+    * `bridgestoprosperity.dev`
     * `ecosoap.dev`
 
 Rationale:
@@ -37,11 +36,11 @@ Subdomains should be used for various endpoints of a product: e.g. DS API, Web F
   * Web API
     * Use the format: `<cohort>-<team letter>-api`
       * Examples:
-        * `labs25-c-api.bridges-to-prosperity.dev`
+        * `labs25-c-api.bridgestoprosperity.dev`
         * `labs26-a-api.ecosoap.dev`
   * Data Science API:
     * Use the format: `<cohort>-<team letter>-ds`
-      * `labs25-c-ds.bridges-to-prosperity.dev`
+      * `labs25-c-ds.bridgestoprosperity.dev`
       * `labs26-a-ds.ecosoap.dev`
 
 Rationale:
