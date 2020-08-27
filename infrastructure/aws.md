@@ -31,3 +31,40 @@ Exceptions:
 
 * None
 
+### \(AW-200\) Resource Naming
+
+The following naming conventions must be followed:
+
+* Amplify Application
+  * `<Product Name>-<Cohort>-<Team Letter>`
+    * bridges-to-prosperity-labs25-a
+    * ecosoap-labs26-c
+* Elastic Beanstalk Application
+  * `<Product Name>-<Cohort>`
+    * bridges-to-prosperity-labs25
+    * ecosoap-labs26-c
+* Elastic Beanstalk Environment
+  * `<Product Name>-<Cohort>-<Team Letter>`
+    * bridges-to-prosperity-labs25-a
+    * ecosoap-labs26-c
+
+{% hint style="info" %}
+Please check with your Engineering Manager if you need to name something in AWS that is not in this list.
+{% endhint %}
+
+{% hint style="warning" %}
+Not following these naming standards _will_ cause your AWS resources to be automatically de-provisioned.
+{% endhint %}
+
+Rationale:
+
+* Labs manages dozens of accounts using thousands of distinct resources. Consistent naming is a key to managing this complexity.
+
+Alternatives:
+
+* None
+
+Exceptions:
+
+* None
+
