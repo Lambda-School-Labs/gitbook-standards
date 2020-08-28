@@ -6,13 +6,11 @@ Only the following Node.js package managers are approved for projects in Labs:
 
 * [NPM](https://docs.npmjs.com/)
   * Version &gt; 6.0.0
-* [Yarn](https://yarnpkg.com/)
-  * Version &gt; 2.0.0
-  * _Preferred_
 
 Rationale:
 
 * Well executed package management is crucial to the realization of a stable and consistent Node-based product. Only mature and stable package managers are permitted on Labs projects.
+* Yarn was recently removed given that npm has fixed many of the issues that Yarn had overcome.
 
 Alternatives:
 
