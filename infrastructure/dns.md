@@ -34,18 +34,18 @@ Subdomains should be used for various endpoints of a product: e.g. DS API, Web F
   * Alphanumeric and hyphens only
   * Hosted as records in the product domain hosted zone
   * Web Frontend
-    * Use the format: `<cohort>-<team letter>`
-      * `labs25-c.bridgestoprosperity.dev`
-      * `labs26-a.ecosoap.dev`
+    * Use the format: `<team letter>.<product domain>`
+      * `c.bridgestoprosperity.dev`
+      * `a.ecosoap.dev`
   * Web API
-    * Use the format: `<cohort>-<team letter>-api`
+    * Use the format: `<team letter>-api.<product domain>`
       * Examples:
-        * `labs25-c-api.bridgestoprosperity.dev`
-        * `labs26-a-api.ecosoap.dev`
+        * `c-api.bridgestoprosperity.dev`
+        * `a-api.ecosoap.dev`
   * Data Science API:
-    * Use the format: `<cohort>-<team letter>-ds`
-      * `labs25-c-ds.bridgestoprosperity.dev`
-      * `labs26-a-ds.ecosoap.dev`
+    * Use the format: `<team letter>-ds.<product domain>`
+      * `c-ds.bridgestoprosperity.dev`
+      * `a-ds.ecosoap.dev`
 
 Rationale:
 
