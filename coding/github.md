@@ -2,7 +2,7 @@
 
 ### \(GH-100\) One GitHub Organization
 
-Code for all student GitHub projects must be stored in the Lambda School Labs Github organization: [https://github.com/Lambda-School-Labs](https://github.com/Lambda-School-Labs)
+Code for all student GitHub projects must be stored in the [Lambda School Labs GitHub organization](https://github.com/Lambda-School-Labs)
 
 Rationale:
 
@@ -10,7 +10,7 @@ Rationale:
 
 ### \(GH-101\) Organization Roles
 
-Lambda School staff and Section Leads will have the `Owner` role. All other organization members will have the `Member` role.
+Lambda School staff and APLs will have the `Owner` role. All other organization members will have the `Member` role.
 
 Rationale:
 
@@ -18,17 +18,22 @@ Rationale:
 
 Exceptions:
 
-* TLs will be put into a cohort admin team with `Admin` role only on all cohort repos.
+* None
 
 ### \(GH-102\) GitHub Cohort Admin Teams
 
-GitHub Cohort Admin teams need to be created using the following convention:
+Each Labs cohort must have a corresponding GitHub Cohort Admin team named as follows:
 
-* Name: `<Cohort> - Admins` \(Example: `Labs 20 - Admins`\)
+* `<Cohort> - Admins` \(Example: `Labs 20 - Admins`\)
+
+Team structure:
+
+* All TPLs
+* All repositories related to the cohort
 
 Rationale:
 
-* Github repos don't allow a user to be added in addition to their team with different roles. To allow TLs to be admins on their repos we need to create this admins team so they can integrate the repo with external services eg. Heroku and AWS.
+* TPLs need administrative access to _all_ of the repositories related to a specific cohort. This allows TPLs to cover for each other and handle administrative tasks on the repos when another is not available.
 
 Exceptions:
 
@@ -36,7 +41,19 @@ Exceptions:
 
 ### \(GH-200\) Dedicated GitHub Teams
 
-Each project team will have it's own dedicated GitHub team within the Lambda School Labs organization.
+Each project team will have its own dedicated GitHub team within the Lambda School Labs organization. Each team should be named as follows:
+
+`<Cohort> - <Team Letter> - <Product>` \(Example: `Labs 20 - C - Brew Plans`\)
+
+### Team structure
+
+| Member | Role |
+| :--- | :--- |
+| APL | Maintainer |
+| TPL | Admin |
+| Student | Member |
+
+* Repositories: All repositories related to the cohort
 
 Rationale:
 
@@ -46,42 +63,11 @@ Exceptions:
 
 * None
 
-### \(GH-201\) GitHub Team Naming
-
-GitHub project teams shall be created using the following convention:
-
-* Name: `<Cohort> - <Product>` \(Example: `Labs 20 - Brew Plans`\)
-
-Rationale:
-
-* GitHub teams have no mechanism for storing metadata, so the product name and cohort must be encoded in the team name.
-
-Exceptions:
-
-* None
-
-### \(GH-202\) GitHub Team Roles
-
-GitHub project team membership and team roles will be as follows:
-
-* Section Lead ⇒ Maintainer
-* Team Lead ⇒ Admin
-* Student ⇒ Member
-
-Rationale:
-
-* Least privilege access
-* The `<cohort> - Admins` team will need to be added to each repo with admin role.
-
-Exceptions:
-
-* None
-
 ### \(GH-300\) GitHub Repo Naming
 
 GitHub repos shall be named in all lowercase using the following convention:
 
-* Name: `<Product>-<Purpose>-<Postfix>`
+* Name: `<Product>-<Team Letter>-<Purpose>-<Postfix>`
 * The `Product` name can be stripped of special characters, shortened or otherwise made to be more readable, though it should remain consistent across repositories.
 * The `Purpose` must be one of the following
   * `fe` for a front-end repository
@@ -92,6 +78,15 @@ GitHub repos shall be named in all lowercase using the following convention:
   * `android` for an Android specific mobile repository
   * `site` for a static website associated with the product
 * The `Postfix` is an arbitrary string that can be appended when multiple repositories with the same purpose are required for a particular product.
+
+#### Examples
+
+| Product | Team Letter | Purpose | Postfix | Repo Name |
+| :--- | :--- | :--- | :--- | :--- |
+| EcoSoap | A | Front-end SPA |  | ecosoap-a-fe |
+| Brew Plans | B | iOS App |  | brew-plans-b-ios |
+| Megamind | D | DS API |  | megamind-d-ds |
+| Megamind | D | Jupyter Notebook | Jupyter | megamind-d-ds-jupyter |
 
 Rationale:
 
@@ -105,13 +100,11 @@ Exceptions:
 
 ### \(GH-310\) GitHub Templates
 
-All GitHub repositories must be created using one of the following templates:
+All new GitHub repositories must be created using the appropriate Labs Scaffolding:
 
-* [https://github.com/Lambda-School-Labs/template-fe](https://github.com/Lambda-School-Labs/template-fe)
-* [https://github.com/Lambda-School-Labs/template-be](https://github.com/Lambda-School-Labs/template-be)
-* [https://github.com/Lambda-School-Labs/template-ds](https://github.com/Lambda-School-Labs/template-ds)
-* [https://github.com/Lambda-School-Labs/template-android](https://github.com/Lambda-School-Labs/template-android)
-* [https://github.com/Lambda-School-Labs/template-site](https://github.com/Lambda-School-Labs/template-site)
+* [React SPA](https://docs.labs.lambdaschool.com/labs-spa-starter/)
+* [Node.js API](https://docs.labs.lambdaschool.com/api/)
+* [DS API](https://docs.labs.lambdaschool.com/data-science/)
 
 Rationale:
 
@@ -121,7 +114,7 @@ Exceptions:
 
 * None
 
-### \(GH-311\) Require GitHub Branch Protection setup for the master branch
+### \(GH-311\) Require GitHub Branch Protection setup for the `main` branch
 
 All GitHub repositories must be setup with [branch protection](https://help.github.com/en/github/administering-a-repository/about-protected-branches) enabled for the `main` branch as follows:
 
@@ -154,21 +147,4 @@ Rationale:
 Exceptions:
 
 * None
-
-### \(GH-330\) GitHub Repo Badges
-
-The README in the root of each GitHub repository must contain the following badges:
-
-* Code Climate Maintainability
-  * [https://codeclimate.com/github/codeclimate/codeclimate/badges](https://codeclimate.com/github/codeclimate/codeclimate/badges)
-* Code Climate Test Coverage
-  * [https://codeclimate.com/github/codeclimate/codeclimate/badges](https://codeclimate.com/github/codeclimate/codeclimate/badges)
-
-Rationale:
-
-* Code Climate is the standard system for ensuring quality across all Labs products. Displaying a badge front and center in a repo is important to maintain visibility into the state of the codebase.
-
-Exceptions:
-
-* Any repository with code that is not supported by Code Climate
 
