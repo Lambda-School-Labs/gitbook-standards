@@ -20,25 +20,5 @@ These standards will morph over time as we adapt to the ever-changing technology
 
 See [Writing Standards](writing-standards.md) for more details on the format for standards.
 
-#### Setup your local environment
-
-All steps below are based on the use of [pipenv](https://pipenv.kennethreitz.org/en/latest/)
-
-* on mac: `> brew install pipenv`
-
-  The GitHub actions still require a `requirements.txt` file so if you add anything to the `Pipfile` you will also need to add it to the `requirements.txt` file.
-
-1. Install all dependencies and set up a python virtual env
-   * `> pipenv install --dev`
-2. Start a pipenv shell
-   * `> pipenv shell`
-3. Run the mkdocs server to build and view you local changes
-   * `> mkdocs serve`
-   * Now open browser to `http://localhost:8000`
-4. Install markdown linter
-   * `> npm install -g markdownlint-cli`
-5. Run the markdown linter before commiting
-   * `> markdownlint -c .markdownlint.json .`
-
-     !!! Warning Please be aware that the `mkdocs serve` command serves the files directly from the `docs` folder and does not build the `site` folder as does the `mkdocs build` command. This means that relative paths may cause a warning.
+#### 
 
