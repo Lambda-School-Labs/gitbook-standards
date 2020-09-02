@@ -14,11 +14,7 @@ However, this guide is exclusive, in that, if a technology choice is _not_ menti
 
 ### Contributing
 
-These standards will morph over time as we adapt to the ever-changing technology landscape. In addition, the standards will embrace a subset of all of the available technologies, so that teams have options when making technical decisions. In order to ensure that these documents are inclusive of the needs of all Labs groups, each new standard or change to an existing standard will be ratified by approval from 3 Labs Tech Leads.
-
-These standards will morph over time as we adapt to the ever-changing technology landscape. Also, the standards will embrace a subset of all of the available technologies, so that teams have options when making technical decisions. To ensure that these documents are inclusive of the needs of all Lab groups, each new standard or change to an existing standard will be ratified by approval from 3 Labs Tech Leads.
+These standards will morph over time as we adapt to the ever-changing technology landscape. In addition, the standards will embrace a subset of all of the available technologies, so that teams have options when making technical decisions. In order to ensure that these documents are inclusive of the needs of all Labs groups, each new standard or change to an existing standard will be ratified by approval from Labs Engineering Managers.
 
 See [Writing Standards](writing-standards.md) for more details on the format for standards.
-
-#### 
 
