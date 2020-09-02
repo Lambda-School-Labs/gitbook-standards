@@ -22,7 +22,7 @@
       <td style="text-align:left">See PL-110</td>
     </tr>
     <tr>
-      <td style="text-align:left">Javascript</td>
+      <td style="text-align:left">JavaScript</td>
       <td style="text-align:left">See PL-110</td>
       <td style="text-align:left">See PL-110</td>
       <td style="text-align:left">See PL-110</td>
