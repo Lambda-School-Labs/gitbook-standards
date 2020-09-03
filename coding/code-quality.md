@@ -5,7 +5,7 @@
 Requirements:
 
 * All repositories _must_ maintain their `main` branch at a Code Climate maintainability score of B or above.
-* This score _must_ be updated immediately after code is merged into the `main` branch.
+* This score _must_ be updated immediately after code is merged into the `main`branch.
 * The maintainability score must be displayed near the top of the README at the root of the repository.
 
 Rationale:
@@ -53,7 +53,7 @@ Exceptions:
 Requirements:
 
 * All repositories are required to maintain a code coverage level of 40% or higher for their `main` branch.
-* Code coverage percentage _must_ be published whenever code is pushed into the `master` branch.
+* Code coverage percentage _must_ be published whenever code is pushed into the `main` branch.
 * The code coverage percentage must be displayed near the top of the README at the root of the repository.
 * All application code _must_ be included in the coverage percentage, even if tests have yet to be written for the code.
 
@@ -79,7 +79,7 @@ Pull requests should not be approved until these comments have been removed.
 Rationale:
 
 * Standard git usage already tracks removed code so that it's not lost.
-* Leaving commented code leave the code base `littered` with distractions to the actual code flow.
+* Leaving commented code leave the code base littered with distractions to the actual code flow.
 
 Exceptions:
 
