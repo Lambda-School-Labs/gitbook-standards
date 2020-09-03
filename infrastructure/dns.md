@@ -4,11 +4,11 @@
 
 Each product will have a single registered domain that will be used for all endpoints in all services and for all projects.
 
-* Naming
-  * Lowercase alphanumeric characters only
-  * Register in the `dev` TLD
-  * Registered and managed by Lambda School engineering managers
-  * Hosted in AWS Route 53 as a Hosted Zone
+* Domain name registration for products will be handled by Labs Engineering Managers
+* Nameservers will be provided by an AWS Route 53 Hosted Zone
+* Naming Standard
+  * Alphanumeric characters only
+  * Use the `dev` TLD only
   * Examples:
     * `bridgestoprosperity.dev`
     * `ecosoap.dev`
@@ -31,8 +31,7 @@ Subdomains should be used for various endpoints of a product: e.g. DS API, Web F
 
 * Naming
   * All lowercase
-  * Alphanumeric and hyphens only
-  * Hosted as records in the product domain hosted zone
+  * Alphanumeric characters only
   * Web Frontend
     * Use the format: `<team letter>.<product domain>`
       * `c.bridgestoprosperity.dev`
