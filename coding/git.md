@@ -14,7 +14,7 @@ Exceptions:
 
 ### \(GT-200\) Feature Branch Naming
 
-Per GT-200, repositories should only contain a single `main` branch and zero or more feature branches.
+Repositories should only contain a single `main` branch and zero or more feature branches.
 
 Feature branches must be named: `feature/<descriptive name>`
 
