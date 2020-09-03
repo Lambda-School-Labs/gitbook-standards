@@ -9,7 +9,7 @@ Workflow for all Lab products must follow the diagram below.
 * The **Dev Cycle** is made up of many small iterations and commits
 * The **QA Cycle** represents the workflow used by the team to validate your PR
 
-The following video uses a basic node app on heroku to demostrate just the git workflow
+The following video uses a basic node app on Heroku to demonstrate just the git workflow
 
 Rationale:
 
