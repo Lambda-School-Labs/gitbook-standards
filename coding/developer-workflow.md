@@ -4,7 +4,7 @@
 
 Workflow for all Lab products must follow the diagram below.
 
-![Developer Workflow](https://www.lucidchart.com/publicSegments/view/8153b4d4-ca44-4614-8b91-b8604484c97f/image.png) [Original](https://www.lucidchart.com/publicSegments/view/8153b4d4-ca44-4614-8b91-b8604484c97f/image.png)
+![Developer Workflow](https://www.lucidchart.com/publicSegments/view/8153b4d4-ca44-4614-8b91-b8604484c97f/image.png)
 
 * The **Dev Cycle** is made up of many small iterations and commits
 * The **QA Cycle** represents the workflow used by the team to validate your PR
