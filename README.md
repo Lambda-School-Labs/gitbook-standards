@@ -1,5 +1,9 @@
 # Home
 
+{% hint style="warning" %}
+[Please read this first!!](https://docs.labs.lambdaschool.com/guides/always-read-this-first)
+{% endhint %}
+
 This document describes the engineering standards that teams working in Lambda X must comply with. Adherence to these standards is critical to the continued success of the Lambda X organization, as they allow us to more effectively manage the scores of teams working across hundreds of products.
 
 ### Topics
