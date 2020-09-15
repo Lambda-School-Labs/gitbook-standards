@@ -113,9 +113,7 @@ Exceptions:
 
 The only permitted DNS providers for Lambda School Labs projects are listed below:
 
-* Route53
-* PointDNS
-  * Only as required for Heroku deployments
+* AWS Route53
 
 All other services are prohibited from use.
 
