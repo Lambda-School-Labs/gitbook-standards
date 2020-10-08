@@ -43,7 +43,7 @@ Exceptions:
 
 Each project team will have its own dedicated GitHub team within the Lambda School Labs organization. Each team should be named as follows:
 
-`<Cohort> - <Team Letter> - <Product>` \(Example: `Labs 20 - C - Brew Plans`\)
+`<Cohort> - <Product> - <Team Letter>` \(Example: `Labs 20 - Brew Plans - C`\)
 
 ### Team structure
 
@@ -67,17 +67,18 @@ Exceptions:
 
 GitHub repos shall be named in all lowercase using the following convention:
 
-* Name: `<Product>-<Team Letter>-<Purpose>-<Postfix>`
-* The `Product` name can be stripped of special characters, shortened or otherwise made to be more readable, though it should remain consistent across repositories.
-* The `Purpose` must be one of the following
-  * `fe` for a front-end repository
-  * `be` for a back-end repository
-  * `ds` for a data science repository
-  * `mobile` for a cross-platform mobile repository
-  * `ios` for an iOS specific mobile repository
-  * `android` for an Android specific mobile repository
-  * `site` for a static website associated with the product
-* The `Postfix` is an arbitrary string that can be appended when multiple repositories with the same purpose are required for a particular product.
+* Repo names must be all lowercase, using only alphanumeric characters and hyphens
+* Format: `<product>-<team letter>-<purpose>-<postfix>`
+  * The `Product` name should be stripped of special characters, shortened or otherwise made to be more readable and it must remain consistent across repositories.
+  * The `Purpose` must be one of the following
+    * `fe` for a front-end repository
+    * `be` for a back-end repository
+    * `ds` for a data science repository
+    * `mobile` for a cross-platform mobile repository
+    * `ios` for an iOS specific mobile repository
+    * `android` for an Android specific mobile repository
+    * `site` for a static website associated with the product
+  * The `Postfix` is an arbitrary string that can be appended when multiple repositories with the same purpose are required for a particular product.
 
 #### Examples
 
