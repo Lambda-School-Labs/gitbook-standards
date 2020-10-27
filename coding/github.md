@@ -1,6 +1,6 @@
 # Github
 
-### \(GH-100\) One GitHub Organization
+## \(GH-100\) One GitHub Organization
 
 Code for all student GitHub projects must be stored in the [Lambda School Labs GitHub organization](https://github.com/Lambda-School-Labs)
 
@@ -8,7 +8,7 @@ Rationale:
 
 * Centralizing code into a single organization allows for easier management.
 
-### \(GH-101\) Organization Roles
+## \(GH-101\) Organization Roles
 
 Lambda School staff and APLs will have the `Owner` role. All other organization members will have the `Member` role.
 
@@ -20,7 +20,7 @@ Exceptions:
 
 * None
 
-### \(GH-102\) GitHub Cohort Admin Teams
+## \(GH-102\) GitHub Cohort Admin Teams
 
 Each Labs cohort must have a corresponding GitHub Cohort Admin team named as follows:
 
@@ -39,13 +39,13 @@ Exceptions:
 
 * None
 
-### \(GH-200\) Dedicated GitHub Teams
+## \(GH-200\) Dedicated GitHub Teams
 
 Each project team will have its own dedicated GitHub team within the Lambda School Labs organization. Each team should be named as follows:
 
 `<Cohort> - <Product> - <Team Letter>` \(Example: `Labs 20 - Brew Plans - C`\)
 
-### Team structure
+## Team structure
 
 | Member | Role |
 | :--- | :--- |
@@ -63,7 +63,7 @@ Exceptions:
 
 * None
 
-### \(GH-300\) GitHub Repo Naming
+## \(GH-300\) GitHub Repo Naming
 
 GitHub repos shall be named in all lowercase using the following convention:
 
@@ -80,7 +80,7 @@ GitHub repos shall be named in all lowercase using the following convention:
     * `site` for a static website associated with the product
   * The `Postfix` is an arbitrary string that can be appended when multiple repositories with the same purpose are required for a particular product.
 
-#### Examples
+### Examples
 
 | Product | Team Letter | Purpose | Postfix | Repo Name |
 | :--- | :--- | :--- | :--- | :--- |
@@ -99,7 +99,7 @@ Exceptions:
 
 * None
 
-### \(GH-310\) GitHub Templates
+## \(GH-310\) GitHub Templates
 
 All new GitHub repositories must be created using the appropriate Labs Scaffolding:
 
@@ -115,7 +115,7 @@ Exceptions:
 
 * None
 
-### \(GH-311\) Require GitHub Branch Protection setup for the `main` branch
+## \(GH-311\) Require GitHub Branch Protection setup for the `main` branch
 
 All GitHub repositories must be setup with [branch protection](https://help.github.com/en/github/administering-a-repository/about-protected-branches) enabled for the `main` branch as follows:
 
@@ -132,7 +132,7 @@ Exceptions:
 
 * None
 
-### \(GH-320\) GitHub Repo Licensing
+## \(GH-320\) GitHub Repo Licensing
 
 The README in the root of each GitHub repository must advertise that the code is maintained under the MIT license.
 

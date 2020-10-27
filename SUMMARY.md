@@ -17,6 +17,7 @@
 * [Web API Frameworks](frameworks/web-api-frameworks.md)
 * [React](frameworks/react.md)
 * [Node.js](frameworks/node.js.md)
+* [Spring](frameworks/spring.md)
 
 ## Platforms & Services
 
