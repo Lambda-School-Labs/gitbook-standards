@@ -28,10 +28,10 @@ Exceptions:
 The only permitted hosting providers for Lambda School Labs projects are listed below:
 
 * Amazon Web Services \(AWS\)
-  * See [AWS Standards](https://github.com/Lambda-School-Labs/gitbook-standards/tree/dfa18df6a5ffef89ba2314d14b572df80e5e1a4b/platforms-and-services/aws.md) for more detail
+  * See [AWS Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws) for more detail
 * Heroku
   * Web Backend Only
-  * See [Heroku Standards](https://github.com/Lambda-School-Labs/gitbook-standards/tree/dfa18df6a5ffef89ba2314d14b572df80e5e1a4b/platforms-and-services/heroku.md) for more detail
+  * See [Heroku Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/heroku) for more detail
 
 All others are prohibited from use, including:
 
