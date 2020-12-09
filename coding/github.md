@@ -149,3 +149,17 @@ Exceptions:
 
 * None
 
+## \(GH-400\) GitHub Branch Cleanup
+
+Once a branch has been merged into `main` it should be immediately deleted to keep your repository clean and manageable.
+
+* The "Automatically delete head branches" option must be enabled fo all repos: [https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-the-automatic-deletion-of-branches](instructions)
+
+Rationale:
+
+* Once a branch has been merged to `main` the change is complete. Any additional changes should be made on a new branch. Too many branches can lead to confusion and merge conflicts.
+
+Exceptions:
+
+* None
+
