@@ -11,6 +11,8 @@ Workflow for all Lab products must follow the diagram below.
 
 The following video uses a basic node app on Heroku to demonstrate just the git workflow
 
+[https://youtu.be/HKnuaH6Dpio](https://youtu.be/HKnuaH6Dpio)
+
 Rationale:
 
 * A standard workflow helps create a common language for a team to use and understand the state of a task and the project

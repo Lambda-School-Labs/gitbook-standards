@@ -153,7 +153,7 @@ Exceptions:
 
 Once a branch has been merged into `main` it should be immediately deleted to keep your repository clean and manageable.
 
-* The "Automatically delete head branches" option must be enabled fo all repos: [https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-the-automatic-deletion-of-branches](instructions)
+* The "Automatically delete head branches" option must be enabled fo all repos: [https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-the-automatic-deletion-of-branches](https://github.com/Lambda-School-Labs/gitbook-standards/tree/bca2e4ce4272774d67dd726463388e137a06f202/coding/instructions/README.md)
 
 Rationale:
 
