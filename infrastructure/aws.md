@@ -1,6 +1,26 @@
 # AWS
 
-### \(AW-100\) Approved AWS Services
+### \(AW-100\) Approved AWS Regions
+
+The only permitted AWS region for Lambda School Labs projects are listed below:
+
+* us-east-1 \(N. Virginia\)
+
+This is the only region that is connected to github for app deployments. Any deployed services in other regions may be shut down without notice by automation.
+
+Rationale:
+
+* Labs manages dozens of accounts using thousands of distinct resources. Keeping the regions limited makes the discovery of resources manageable.
+
+Alternatives:
+
+* None
+
+Exceptions:
+
+* None
+
+### \(AW-200\) Approved AWS Services
 
 The only permitted AWS services for Lambda School Labs projects are listed below:
 
@@ -31,7 +51,7 @@ Exceptions:
 
 * None
 
-### \(AW-200\) Resource Naming
+### \(AW-300\) Resource Naming
 
 The following naming conventions must be followed:
 
