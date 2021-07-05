@@ -1,32 +1,55 @@
 # Table of contents
 
 * [Home](README.md)
-* [Writing Standards](writing-standards.md)
+* [Always Read This First!](always-read-this-first.md)
+
+## Product
+
+* [Product Roadmap](product/product-roadmap.md)
+* [Planning Your Product](product/planning-your-product/README.md)
+  * [Trello](product/planning-your-product/trello.md)
+  * [User Stories & Tasks](product/planning-your-product/user-stories-and-task.md)
+  * [Daily Standups](product/planning-your-product/standup-best-practices.md)
 
 ## Coding
 
-* [Programming Languages](coding/programming-languages.md)
-* [Developer Workflow](coding/developer-workflow.md)
-* [Git](coding/git.md)
-* [Github](coding/github.md)
-* [Code Quality](coding/code-quality.md)
-* [Application Security](coding/application-security.md)
+* [Git Workflow](coding/git-workflow.md)
+* [Git Rebase](coding/git-rebase.md)
+* [Linting and Formatting](coding/linting-and-formatting.md)
 
-## Frameworks
+## GitHub
 
-* [Web API Frameworks](frameworks/web-api-frameworks.md)
-* [React](frameworks/react.md)
-* [Node.js](frameworks/node.js.md)
-* [Spring](frameworks/spring.md)
+* [GitHub Basics](github/github-basics.md)
+* [Github Actions](github/github-actions.md)
+* [Github/Trello Integration](github/github-trello-integration.md)
 
-## Platforms & Services
+## AWS
 
-* [3rd Party Services](platforms-and-services/3rd-party-services.md)
-* [Data Persistence](platforms-and-services/data-persistence.md)
+* [AWS Basics](aws/account-basics.md)
+* [AWS Networking](aws/aws-networking.md)
+* [Amplify](aws/amplify/README.md)
+  * [Amplify DNS](aws/amplify/amplify-dns.md)
+  * [Amplify Deployment](aws/amplify/amplify.md)
+* [Elastic Beanstalk](aws/elastic-beanstalk/README.md)
+  * [Elastic Beanstalk DNS](aws/elastic-beanstalk/elastic-beanstalk-dns.md)
 
-## Infrastructure
+## Heroku
 
-* [DNS](infrastructure/dns.md)
-* [AWS](infrastructure/aws.md)
-* [Heroku](infrastructure/heroku.md)
+* [Heroku Basics](heroku/heroku-basics.md)
+* [Heroku Node Deployment](heroku/node-api-deploy.md)
+* [Heroku Networking](heroku/heroku-custom-domain.md)
+* [Heroku Pipelines](heroku/heroku-pipelines.md)
+* [Heroku Review Apps](heroku/review-apps.md)
+
+## Okta
+
+* [Okta Basics](okta/okta-basics/README.md)
+  * [Okta Application Setup](okta/okta-basics/okta-application-setup.md)
+
+## labs-cli
+
+* [Labs CLI Basics](labs-cli/labs-cli-basics.md)
+* [Create a Labs React SPA](labs-cli/create-labs-react-spa.md)
+* [Create a Labs Node API](labs-cli/create-labs-node-api.md)
+* [Generate page component](labs-cli/new-page-component.md)
 

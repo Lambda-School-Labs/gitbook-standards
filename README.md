@@ -1,24 +1,63 @@
 # Home
 
+## Welcome!
+
 {% hint style="warning" %}
 [Please read this first!!](https://docs.labs.lambdaschool.com/guides/always-read-this-first)
 {% endhint %}
 
-This document describes the engineering standards that teams working in Lambda X must comply with. Adherence to these standards is critical to the continued success of the Lambda X organization, as they allow us to more effectively manage the scores of teams working across hundreds of products.
-
-### Topics
-
-This guide is divided into separate topics. A topic corresponds to a specific area of concern in software engineering. For example, [Programming Languages](coding/programming-languages.md) is a topic.
-
-### Standards
-
-The standards in this guide do not cover all choices in technology. Many are purposely omitted as they are not considered impactful to the quality of the overall program.
-
-However, this guide is exclusive, in that, if a technology choice is _not_ mentioned as part of a topic, you can assume the use of that technology is prohibited. When in doubt, please open an issue or submit a PR to start a discussion.
+This space is a collection of [how-to](https://en.wikipedia.org/wiki/How-to) documents related to the various tools, frameworks, tools and platforms that are using in Labs. These guides are closely related to the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/) document.
 
 ### Contributing
 
-These standards will morph over time as we adapt to the ever-changing technology landscape. In addition, the standards will embrace a subset of all of the available technologies, so that teams have options when making technical decisions. In order to ensure that these documents are inclusive of the needs of all Labs groups, each new standard or change to an existing standard will be ratified by approval from Labs Engineering Managers.
+These are living documents that try to represent a fast moving and ever-changing tech landscape. As such, there _will_ be errors and omissions as parts of these guides fall out-of-date.
 
-See [Writing Standards](writing-standards.md) for more details on the format for standards.
+If you find gaps or issues in these documents, _please_ feel free to open an issue in the [corresponding GitHub repo](https://github.com/Lambda-School-Labs/gitbook-labs-guides). You are also welcome to submit a pull request, which will be reviewed by Labs managers.
+
+## Glossary
+
+### Product
+
+A business term for a set of applications, service or other resources that provide some value to an end-user or other system.
+
+* A Product may exist for a very long time or sometimes not long at all
+* A Product may be implemented in many different ways and the implementation may change completely at some point during its lifespan
+* A _Product_ is a logical construct \(aka logical entity\), meaning it's just a name that groups together a set of People, Projects and Resources
+
+### Product Role
+
+A set of skills and responsibilities required to make a _Product_ successful. _Product Roles_ are filled by people who have the required skills \(or will learn them quickly!\) and will take on the responsibilities to make the _Product_ successful.
+
+* Typical _Product Roles_:
+  * Product Manager, Product Stakeholder, Product Designer, etc.
+* _Product Roles_ can change over time, as the needs and the lifecycle of the Product evolves
+* A _Product Role_ is a logical construct; it's just a name given to a set of skills and responsibilities.
+* When you are part of a _Product_, you are actually playing a _Role_ on that _Product_. Your _Product Role_ defines the items you a responsible or accountable for.
+
+### Project
+
+A business term for a group people that are working to build, fix, extend or otherwise enhance a _Product_ for some period of time.
+
+* A _Project_ is associated with one and only one _Product_.
+* A _Project_ has a pre-defined set of _Roles_ required for the _Project_ to be successful.
+* People are assigned to one or more _Roles_ on a _Project_, which helps guides their work.
+* A _Project_ has a specific starting point and a specific end point. The end point can either be when a specific amount of time has passed or specific set of tasks have been completed.
+
+### Project Role
+
+A set of skills and responsibilities required to make a _Project_ successful. _Project Roles_ are filled by people who have the required skills \(or will learn them quickly!\) and will take on the responsibilities to make the _Project_ successful.
+
+* Typical _Project Roles_:
+  * Project Manager, Lead Engineer, UX Designer, Web Developer, Data Scientist, Mobile Engineer, etc.
+* _Project Roles_ can change over time, as the needs and the lifecycle of the _Project_ evolves
+* A _Project Role_ is a logical construct; it's just a name given to a set of skills and responsibilities.
+* When you are part of a _Project_, you are actually playing a _Role_ on that _Project_. Your _Project Role_ defines the items you a responsible or accountable for.
+
+### AWS Product Account
+
+An AWS account that hosts all of the various AWS resources required to run a particular student _Product_.
+
+{% hint style="info" %}
+ There is only one AWS account per _Product_ that is shared by all _Project_ teams.
+{% endhint %}
 
